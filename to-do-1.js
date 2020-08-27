@@ -6,7 +6,7 @@ function noBlanks(str){
     // console.log(noSpaces.join(""))
     return noSpaces.join("");
 }
-console.log(noBlanks(" Pl ayTha tF u nkyM usi c "));
+// console.log(noBlanks(" Pl ayTha tF u nkyM usi c "));
 
 //2. Create a JavaScript function that given a string, returns the integer made from the string’s digits. Given "0s1a3y5w7h9a2t4?6!8?0", the function should return the number 1357924680.
 function numStr(str){
@@ -14,10 +14,10 @@ function numStr(str){
     var int='';
     for (var i=0; i<str.length; i++){
         if (str[i]%1==0){
-            int += str[i];
+            int += str[i];// int = int+str[i];
         }
     }
-    parseInt(int);
+    // parseInt(int);
     return int;
 }
 y=numStr("0s1a3y5w7h9a2t4?6!8?0");
